@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": "colombia_001",
+    "content": "Colombia es un país soberano situado en la región noroccidental de América del Sur. Constituye una república constitucional, unitaria y descentralizada. Su capital es Bogotá. Su superficie es de 1 141 748 km², de los cuales 1 038 700 km² corresponden a su territorio continental y los restantes 103 048 km² a su extensión marítima, de la cual mantiene un diferendo limítrofe con Venezuela y Nicaragua.",
+    "metadata": {
+      "source_section": "Introducción",
+      "chunk_index": 0,
+      "source_url": "https://es.wikipedia.org/wiki/Colombia",
+      "character_count": 486,
+      "word_count": 72,
+      "extraction_timestamp": "2024-07-04T15:30:00Z"
+    }
+  },
+  {
+    "chunk_id": "colombia_002",
+    "content": "Limita al este con Venezuela y Brasil, al sur con Perú y Ecuador, al noroeste con Panamá, y al norte con el mar Caribe, y al oeste con el océano Pacífico. Es el único país de América del Sur que tiene costas en el océano Pacífico y en el mar Caribe, y el cuarto país en extensión territorial de América del Sur, después de Brasil, Argentina y Perú.",
+    "metadata": {
+      "source_section": "Geografía",
+      "chunk_index": 1,
+      "source_url": "https://es.wikipedia.org/wiki/Colombia",
+      "character_count": 416,
+      "word_count": 64,
+      "extraction_timestamp": "2024-07-04T15:30:00Z"
+    }
+  },
+  {
+    "chunk_id": "colombia_003",
+    "content": "El territorio que hoy comprende Colombia fue habitado por pueblos indígenas como los muiscas, taironas, zenúes, quimbayas y otros grupos, que desarrollaron complejas sociedades. En 1499 llegaron los primeros conquistadores españoles, y en 1550 se estableció la Audiencia de Santafé en el Nuevo Reino de Granada. Tras casi tres siglos de dominación española, el 20 de julio de 1810 se inició el proceso de independencia.",
+    "metadata": {
+      "source_section": "Historia",
+      "chunk_index": 2,
+      "source_url": "https://es.wikipedia.org/wiki/Colombia",
+      "character_count": 465,
+      "word_count": 71,
+      "extraction_timestamp": "2024-07-04T15:30:00Z"
+    }
+  },
+  {
+    "chunk_id": "colombia_004",
+    "content": "Colombia es reconocida a nivel mundial por su biodiversidad, siendo considerado uno de los países megadiversos del mundo. Alberga cerca del 10% de la biodiversidad mundial en apenas el 0,7% de la superficie terrestre del planeta. Cuenta con el mayor número de especies de aves y orquídeas del mundo, es segundo en especies de plantas, anfibios, mariposas y peces de agua dulce.",
+    "metadata": {
+      "source_section": "Biodiversidad",
+      "chunk_index": 3,
+      "source_url": "https://es.wikipedia.org/wiki/Colombia",
+      "character_count": 445,
+      "word_count": 65,
+      "extraction_timestamp": "2024-07-04T15:30:00Z"
+    }
+  },
+  {
+    "chunk_id": "colombia_005",
+    "content": "La economía de Colombia es la cuarta más grande de América Latina, después de Brasil, México y Argentina. El país tiene importantes recursos naturales incluyendo petróleo, gas natural, carbón, oro y esmeraldas. La agricultura también juega un papel importante, especialmente el café, que es uno de los productos de exportación más famosos del país.",
+    "metadata": {
+      "source_section": "Economía",
+      "chunk_index": 4,
+      "source_url": "https://es.wikipedia.org/wiki/Colombia",
+      "character_count": 425,
+      "word_count": 62,
+      "extraction_timestamp": "2024-07-04T15:30:00Z"
+    }
+  },
+  {
+    "chunk_id": "colombia_006",
+    "content": "La cultura colombiana es el resultado del mestizaje entre europeos, indígenas americanos y africanos. Esta mezcla se refleja en la música, el arte, la literatura y las tradiciones del país. Géneros musicales como la cumbia, el vallenato, la salsa, el bambuco y el joropo forman parte del patrimonio cultural nacional.",
+    "metadata": {
+      "source_section": "Cultura",
+      "chunk_index": 5,
+      "source_url": "https://es.wikipedia.org/wiki/Colombia",
+      "character_count": 392,
+      "word_count": 58,
+      "extraction_timestamp": "2024-07-04T15:30:00Z"
+    }
+  }
+]

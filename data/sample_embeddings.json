@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "total_chunks_processed": 6,
+    "generation_timestamp": "2024-07-04T15:30:15Z",
+    "description": "Sample embeddings demonstrating Stage 4 output format"
+  },
+  "embeddings": [
+    {
+      "chunk_id": "colombia_001",
+      "embedding": [
+        0.0234, -0.1567, 0.0891, 0.1234, -0.0678, 0.1890, -0.0345, 0.0789,
+        0.1456, -0.0234, 0.0567, 0.0823, -0.1345, 0.0678, 0.1234, -0.0891,
+        0.0345, 0.1678, -0.0234, 0.0789, 0.1123, -0.0456, 0.0234, 0.1567,
+        -0.0789, 0.0345, 0.1234, -0.0678, 0.0891, 0.1456, -0.0234, 0.0567
+      ],
+      "vector_norm": 1.0,
+      "content_preview": "Colombia es un país soberano situado en la región noroccidental..."
+    },
+    {
+      "chunk_id": "colombia_002", 
+      "embedding": [
+        0.1234, -0.0567, 0.0789, 0.1456, -0.0234, 0.1678, -0.0891, 0.0345,
+        0.1123, -0.0456, 0.0678, 0.1234, -0.0789, 0.0345, 0.1567, -0.0234,
+        0.0891, 0.1345, -0.0678, 0.0234, 0.1789, -0.0123, 0.0456, 0.1234,
+        -0.0567, 0.0789, 0.1456, -0.0234, 0.0678, 0.1123, -0.0891, 0.0345
+      ],
+      "vector_norm": 1.0,
+      "content_preview": "Limita al este con Venezuela y Brasil, al sur con Perú..."
+    },
+    {
+      "chunk_id": "colombia_003",
+      "embedding": [
+        0.0789, -0.1234, 0.0456, 0.1678, -0.0345, 0.1123, -0.0567, 0.0891,
+        0.1234, -0.0678, 0.0345, 0.1456, -0.0234, 0.0789, 0.1567, -0.0123,
+        0.0234, 0.1345, -0.0891, 0.0456, 0.1678, -0.0234, 0.0567, 0.1123,
+        -0.0789, 0.0345, 0.1234, -0.0456, 0.0891, 0.1567, -0.0234, 0.0678
+      ],
+      "vector_norm": 1.0,
+      "content_preview": "El territorio que hoy comprende Colombia fue habitado por pueblos..."
+    }
+  ],
+  "statistics": {
+    "min_value": -0.1890,
+    "max_value": 0.1890,
+    "mean_value": 0.0123,
+    "std_deviation": 0.0789,
+    "vector_similarity_range": {
+      "min_cosine_similarity": 0.6234,
+      "max_cosine_similarity": 0.9456,
+      "average_similarity": 0.7891
+    }
+  },
+  "technical_details": {
+    "normalization": "L2 normalized vectors",
+    "precision": "float32",
+    "similarity_metric": "cosine_similarity",
+    "index_type": "HNSW",
+    "storage_format": "dense_vectors"
+  },
+  "validation_info": {
+    "all_vectors_normalized": true,
+    "dimension_consistency": true,
+    "no_null_values": true,
+    "ready_for_similarity_search": true
+  }
+}

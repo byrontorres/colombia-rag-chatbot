@@ -1,0 +1,11 @@
+# Include base requirements
+-r base.txt
+
+# Production server
+gunicorn>=21.0.0
+
+# Performance
+orjson>=3.9.0
+
+# Monitoring
+prometheus-client>=0.19.0

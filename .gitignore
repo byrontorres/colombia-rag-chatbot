@@ -1,0 +1,192 @@
+# Python environment and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments (DO NOT commit to repository)
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.env/
+
+# Environment configuration files (private)
+.env
+.env.local
+.env.production
+.env.test
+
+# Large data files (auto-generated)
+data/chroma_db/
+data/cache/
+data/embeddings_cache/
+data/models/
+data/wikipedia_cache/
+data/processed_content/
+data/vector_store/
+
+# Generated results (can be recreated)
+data/pipeline_demonstration_results.json
+data/verification_results.json
+data/performance_metrics.json
+
+# Logs and temporary files
+logs/
+*.log
+log.txt
+debug.log
+error.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker-related (keep compose files, ignore runtime data)
+.docker/
+docker-compose.override.yml
+docker-compose.local.yml
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# Model files (large binary files)
+*.bin
+*.gguf
+*.model
+*.pt
+*.pth
+*.safetensors
+models/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Runtime configuration
+runtime_config.json
+local_settings.py
+
+# Performance monitoring
+monitoring/
+metrics/
+traces/
+
+# Third-party downloads
+downloads/
+external/
+
+# Documentation build
+docs/_build/
+docs/build/
+
+# Deployment secrets
+secrets/
+.secrets/
+k8s-secrets.yml
+deployment-secrets.yml
+
+# Local development overrides
+docker-compose.dev.yml
+dev-requirements.txt
+local-config.json
