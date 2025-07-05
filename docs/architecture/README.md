@@ -8,7 +8,7 @@ The Colombia RAG Chatbot implements a retrieval-augmented generation architectur
 
 ```
 ┌─────────────┐    ┌──────────────┐    ┌─────────────┐
-│   Client    │───▶│  FastAPI     │───▶│   Ollama    │
+│   Client    │───▶│  FastAPI     │──▶│   Ollama    │
 │ Application │    │   Gateway    │    │ LLM Server  │
 └─────────────┘    └──────────────┘    └─────────────┘
                            │

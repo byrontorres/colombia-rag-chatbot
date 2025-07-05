@@ -1,9 +1,9 @@
 {
-  "execution_timestamp": "2025-07-04T22:06:28.014673",
-  "total_execution_time_seconds": 14.66,
+  "execution_timestamp": "2025-07-05T13:52:37.726905",
+  "total_execution_time_seconds": 41.96,
   "stage_1_extraction": {
     "characters_extracted": 186621,
-    "time_seconds": 9.89,
+    "time_seconds": 37.31,
     "status": "SUCCESS"
   },
   "stage_2_processing": {
@@ -21,13 +21,13 @@
   "stage_4_embeddings": {
     "embeddings_generated": 10,
     "embedding_dimension": 384,
-    "time_seconds": 4.44,
+    "time_seconds": 3.86,
     "status": "SUCCESS"
   },
   "stage_5_storage": {
     "vector_db_operational": true,
     "total_vectors_in_db": 2264,
-    "time_seconds": 0.33,
+    "time_seconds": 0.79,
     "status": "SUCCESS"
   },
   "pipeline_status": "ALL_STAGES_DEMONSTRATED"

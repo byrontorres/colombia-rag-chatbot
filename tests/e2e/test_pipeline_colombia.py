@@ -4,14 +4,10 @@ Test script for Phase 2: Data extraction, processing, and chunking pipeline.
 Demonstrates the complete workflow from Wikipedia extraction to document chunks.
 """
 
-import sys
 import time
-from pathlib import Path
 from typing import List
 
-# Add project root to path
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
+
 
 from app.config.logging import setup_logging, logger
 from app.services.data_extractor import WikipediaExtractor

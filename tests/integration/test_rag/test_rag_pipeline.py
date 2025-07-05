@@ -3,16 +3,10 @@
 Smoke test para verificar que el pipeline RAG completo funciona end-to-end.
 Prueba: pregunta -> retrieval -> generación -> respuesta
 """
-
 import sys
-import os
-from pathlib import Path
-
-# Añadir el directorio raíz al path para importar app
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 try:
-    from app.services import ResponseGenerationService
+    from app.services.response_generation_service import ResponseGenerationService
     from app.config.settings import get_settings
     print("PASS: Imports exitosos")
 except Exception as e:

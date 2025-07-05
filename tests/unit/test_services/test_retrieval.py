@@ -3,14 +3,8 @@
 Test script for retrieval system functionality.
 """
 
-import sys
-from pathlib import Path
 
-# Add project root to path
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
-
-from app.config.logging import setup_logging, logger
+from app.config.logging import setup_logging
 from app.services.retrieval_service import RetrievalService
 
 
