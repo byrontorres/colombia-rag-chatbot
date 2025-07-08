@@ -2,6 +2,11 @@
 Test script for vector store functionality.
 """
 
+import sys
+from pathlib import Path
+
+# Añadir el directorio raíz al path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
 from app.config.logging import setup_logging
 from app.services.data_extractor import WikipediaExtractor
@@ -82,9 +87,9 @@ def test_vector_store_complete():
         
         # Generate query embedding
         test_queries = [
-            "¿Cuál es la capital de Colombia?",
-            "Historia de Colombia",
-            "Geografía colombiana"
+            "¿Cuáles son los principales ríos de Colombia?",
+            "Háblame sobre los platos típicos de Colombia.",
+            "¿Cuál es la moneda oficial de Colombia?"
         ]
         
         for query_text in test_queries:

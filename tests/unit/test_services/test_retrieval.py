@@ -3,6 +3,11 @@
 Test script for retrieval system functionality.
 """
 
+import sys
+from pathlib import Path
+
+# Añadir el directorio raíz al path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
 from app.config.logging import setup_logging
 from app.services.retrieval_service import RetrievalService
@@ -44,13 +49,21 @@ def test_retrieval_system():
         print("-" * 40)
         
         test_queries = [
-            "¿Cuál es la capital de Colombia?",
-            "Historia de Colombia",
-            "Geografía colombiana", 
-            "Economía de Colombia",
-            "Cultura colombiana",
-            "¿Qué idioma se habla en Colombia?",
-            "Población de Colombia"
+            "¿Cuáles son los principales ríos de Colombia?",
+            "Háblame brevemente de la historia de Colombia en la época colonial",
+            "¿Qué departamentos conforman Colombia?",
+            "Descríbeme brevemente el escudo de armas de Colombia.",
+            "¿Qué país comparte frontera con Colombia?",
+            "Háblame sobre la biodiversidad en los parques nacionales de Colombia.",
+            "Háblame sobre los platos típicos de Colombia.",
+            "¿Cuál es la moneda oficial de Colombia?",
+            "¿Quién es el compositor del himno de Colombia?",
+            "¿Cuáles son los principales productos de exportación de Colombia?",
+            "Describe brevemente el sistema político de Colombia.",
+            "¿Cuáles son algunas de las montañas más altas de Colombia y dónde se ubican?",
+            "¿Qué es el Carnaval de Barranquilla y en qué mes se celebra?",
+            "¿Quién es Simón Bolivar?",
+            "¿Quién es Gustavo Petro?"
         ]
         
         for i, query in enumerate(test_queries, 1):
@@ -89,9 +102,10 @@ def test_retrieval_system():
         print("-" * 40)
         
         invalid_queries = [
-            "What is the weather like?",
-            "How to cook pasta?", 
-            "Python programming tutorial"
+            "¿Cuál es la capital de Perú?",
+            "Explícame cómo implementar una lista enlazada en C#.",
+            "¿Quién ganó la Copa Mundial de la FIFA 2022?",
+            "Dime la temperatura actual en París."
         ]
         
         for query in invalid_queries:
@@ -110,7 +124,7 @@ def test_retrieval_system():
         print("\n5. TESTING QUERY EXPANSION")
         print("-" * 40)
         
-        expansion_test_query = "capital"
+        expansion_test_query = "ríos"
         print(f"   Testing expansion for: '{expansion_test_query}'")
         
         # With expansion

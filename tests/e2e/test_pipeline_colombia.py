@@ -6,8 +6,11 @@ Demonstrates the complete workflow from Wikipedia extraction to document chunks.
 
 import time
 from typing import List
+import sys
+from pathlib import Path
 
-
+# Añadir el directorio raíz al path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from app.config.logging import setup_logging, logger
 from app.services.data_extractor import WikipediaExtractor

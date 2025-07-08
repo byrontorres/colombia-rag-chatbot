@@ -3,6 +3,12 @@
 Test script for embedding generation.
 """
 
+import sys
+from pathlib import Path
+
+# Añadir el directorio raíz al path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
+
 from app.config.logging import setup_logging
 from app.services.data_extractor import WikipediaExtractor
 from app.services.text_processor import TextProcessor

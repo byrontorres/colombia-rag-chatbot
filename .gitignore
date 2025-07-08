@@ -41,10 +41,10 @@ venv.bak/
 data/chroma_db/
 data/cache/
 data/embeddings_cache/
-data/models/
+# data/models/
 data/wikipedia_cache/
 data/processed_content/
-data/vector_store/
+# data/vector_store/
 
 # Generated results (can be recreated)
 data/pipeline_demonstration_results.json
